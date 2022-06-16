@@ -97,6 +97,7 @@ ul {
   display: flex;
   opacity: 0.9;
 }
+
 .navbar .tog-nav ul {
   position: absolute;
   top: 70px;
@@ -212,6 +213,10 @@ ul {
 @media only screen and (max-width: 296px) {
   .hero .container .hero-left {
     max-width: 150px !important;
+  }
+}
+@media only screen and (max-width: 341px) {
+  .hero .container .hero-left {
     padding: 0 !important;
   }
 }
